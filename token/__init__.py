@@ -1,3 +1,3 @@
-from .TOKEN import Token
+from .qase_API import Token
 
 token = Token()

@@ -55,5 +55,22 @@ TOKEN=YOUR_API_TOKEN
 
 <img src="img/test_case_id.png" width="800" height="200" alt="test case id">
 
+13. Fill the fields Header, code and id to test work of API
+
+[Update test case](https://developers.qase.io/reference/update-case)
+
+14. Add step to test case and fill the fields
+
+<img src="img/adding_step_info.png" width="400" height="300" alt="filling step of test case">
+
+15. All data ready to send. Click Try it! button and see response
+
+<img src="img/try_to_sent_data_see_response.png" width="300" height="200" alt="response from server">
+
+16. If response code is 200, then data of our test case is changed
+
+<img src="img/data_changed.png" width="300" height="300" alt="test case id">
+
+
 
 
