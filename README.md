@@ -26,3 +26,34 @@ pytest .
 
 5. In this project we will try to automate the process of filling/actualizing test's cases steps
 
+6. We need to the integration with Qase.io with the open API
++ [API](https://developers.qase.io/reference/get-attachments)
+
+7. To update the steps of the test case we need Update test case method
++ [Update test case](https://developers.qase.io/reference/update-case)
+
+8. We need information
++ Token
++ Code for project
++ ID of the test case
+
+9. To get your API token you need to click on your profile avatar and select API Tokens
+
+<img src="img/API_token.png" width="200" height="300" alt="how to get API token">
+
+10. Create .env file in your project root directory and add your API token.
++ Replace YOUR_API_TOKEN with your API token
+```
+TOKEN=YOUR_API_TOKEN
+```
+
+11. Project code can be found on the web page of the project
+
+<img src="img/project_code.png" width="400" height="200" alt="project code">
+
+12. Test case ID can be found on web page when you open it
+
+<img src="img/test_case_id.png" width="800" height="200" alt="test case id">
+
+
+
