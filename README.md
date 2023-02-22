@@ -44,7 +44,7 @@ pytest .
 10. Create .env file in your project root directory and add your API token.
 + Replace YOUR_API_TOKEN with your API token
 ```
-TOKEN=YOUR_API_TOKEN
+QASE_TOKEN=YOUR_API_TOKEN
 ```
 
 11. Project code can be found on the web page of the project
