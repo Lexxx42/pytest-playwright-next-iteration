@@ -42,9 +42,11 @@ pytest .
 <img src="img/API_token.png" width="200" height="300" alt="how to get API token">
 
 10. Create .env file in your project root directory and add your API token.
-+ Replace YOUR_API_TOKEN with your API token
++ Replace YOUR_API_TOKEN with your API token.
++ QASE_DOC=True if you whant to change data of your test case
 ```
 QASE_TOKEN=YOUR_API_TOKEN
+QASE_DOC=True
 ```
 
 11. Project code can be found on the web page of the project
