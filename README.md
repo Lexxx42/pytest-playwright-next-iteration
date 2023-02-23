@@ -1,9 +1,11 @@
 # pytest-playwright-next-iteration
+
 ## Next iteration of 1st created autotest repository
 
 1st repository can be found here: [pytest-playwright](https://github.com/Lexxx42/pytest-playwright)
 
 * Pytest comand to start tests:
+
 ```
 pytest .
 ```
@@ -27,12 +29,15 @@ pytest .
 5. In this project we will try to automate the process of filling/actualizing test's cases steps
 
 6. We need to the integration with Qase.io with the open API
+
 + [API](https://developers.qase.io/reference/get-attachments)
 
 7. To update the steps of the test case we need Update test case method
+
 + [Update test case](https://developers.qase.io/reference/update-case)
 
 8. We need information
+
 + Token
 + Code for project
 + ID of the test case
@@ -42,8 +47,10 @@ pytest .
 <img src="img/API_token.png" width="200" height="300" alt="how to get API token">
 
 10. Create .env file in your project root directory and add your API token.
+
 + Replace YOUR_API_TOKEN with your API token.
 + QASE_DOC=True if you whant to change data of your test case
+
 ```
 QASE_TOKEN=YOUR_API_TOKEN
 QASE_DOC=True
@@ -73,7 +80,10 @@ QASE_DOC=True
 
 <img src="img/data_changed.png" width="300" height="300" alt="test case id">
 
+17. Use the command from the project root to start the auto test
 
-
+```
+pytest .
+```
 
 ### Sourse: [Stepushchenko](https://habr.com/ru/post/715732/)
