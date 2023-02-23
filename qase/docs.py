@@ -23,7 +23,7 @@ class Docs:
     def _prepare_case_data(self, request) -> dict:  # noqa: no-self-use
         result = {
             'steps': [],
-            'description': 'I automated this test! FUCK YEAH!!!',
+            'description': 'I automated this test!',
             'automation': 2
         }
         for attr in config.qase.CASE_PARAMS:
