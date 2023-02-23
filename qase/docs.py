@@ -24,6 +24,7 @@ class Docs:
         result = {
             'steps': [],
             'description': 'I automated this test!',
+            'title': 'The main search button must the have Google Search text',
             'automation': 2
         }
         for attr in config.qase.CASE_PARAMS:
